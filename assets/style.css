@@ -1,0 +1,75 @@
+/*gambar background*/
+body#LoginForm{ 
+	 color: #fff;
+     background: url('../image/background.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+	 padding:10px;
+}
+
+/*font heading*/
+.form-heading { color:#DC143C; font-size:40px;}
+/*bagian desain inputan*/
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+/*bagian desain inputan*/
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+
+/*bagian desain inputan*/
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+/*bagian main*/
+.main-div {
+  background: #87CEEB none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: auto;
+  padding: 50px 70px 70px 71px;
+}
+/*margin bawah bottom*/
+.login-form .form-group {
+  margin-bottom:10%;
+
+}
+
+/*mengatur login form*/
+.login-form{ text-align:center;}
+
+/*tombol lupa*/
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+/*tombol login*/
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 70px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+/*text login*/
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+
+/*text area*/
+.comment-text-area {
+  float: right;
+  width: calc(100% - 45px);
+  height: auto;
+  background-color: red;
+}
+
